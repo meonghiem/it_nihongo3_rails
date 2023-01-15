@@ -3,3 +3,4 @@
 <%= current_user.email %>
 <p><%= current_user.name%></p>
 <p><%= current_user.age%></p>
+<% if current_user.avatar.attached? %>
